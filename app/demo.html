@@ -1,0 +1,24 @@
+<div id="root"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+<script type="module">import Spacebook from 'https://cdn.jsdelivr.net/gh/danielmdavis/spacebook/app/SpaceBook.jsx'</script>
+<script type="text/babel">
+  // import './style.css'
+  // import Spacebook from './Spacebook.jsx'
+
+  class Demo extends React.Component {
+    render () {
+      const colorArr = ['red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'purple']
+
+      return ( <div /> )
+      return (
+        <Spacebook
+          colors={colorArr}
+        />
+      )
+    }
+  }
+  ReactDOM.render(<Demo />, document.getElementById('root'))
+
+</script>
