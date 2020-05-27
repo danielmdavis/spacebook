@@ -5,11 +5,9 @@ import Spacebook from './Spacebook.jsx'
 
 class App extends React.Component {
   render () {
-    const colorArr = ['crimson', 'darkorange', 'gold', 'darkgreen', 'darkcyan', 'darkblue', 'darkviolet']
-
     return (
       <Spacebook
-        colors={colorArr}
+        content={['foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', 'foo', 'bar', ]}
       />
     )
   }

@@ -98,7 +98,7 @@ class SpacebookCover extends Component {
     })
 
     return (
-      <div className='body'>
+      <div className='cover'>
         {boxArr}
       </div>
     )
