@@ -68,10 +68,11 @@ To conclude, let's compare the output of a fully specified render call to the de
           />
         </div>
       )
-    } ```
+    }
+  ```
     
     
-   The element as it appears in the browser:
+ The element as it appears in the browser:
     
 
 IMAGE3
