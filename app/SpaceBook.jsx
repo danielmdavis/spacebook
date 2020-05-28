@@ -10,7 +10,7 @@ const Spacebook = (props) => {
   for (const key of keys) states.push(useKeyPress(key))
 
   const pivot = (props.pivot) ? props.pivot : [720, 380]
-  const dimensions = (props.dimensions) ? props.dimensions : [295, 500]
+  const dimensions = (props.dimensions) ? props.dimensions : [290, 500]
   const colors = (props.colors) ? props.colors : ['crimson', 'darkorange', 'gold', 'darkgreen', 'darkcyan', 'darkblue', 'darkviolet']
   while (colors.length < props.content.length) {
     const colorsOriginalLength = colors.length
