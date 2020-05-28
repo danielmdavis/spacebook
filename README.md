@@ -24,7 +24,9 @@ Import Spacebook with standard ES6 syntax is as simple as:
 ```import Spacebook from 'spacebook';```
 Then simply place the element in your `render` method. Be sure to include `content`, the only required property:
 
-```<Spacebook content={['foo','bar']} />```
+```javascript 
+<Spacebook content={['foo','bar']} />
+```
 
 If you were to populate that content array with a few more placeholder strings, the result would look something like this:
 
@@ -46,10 +48,9 @@ There are numerous `props` you can customize for each instance of Spacebook, and
   * Default value is "ROYGBIV." If there are more colors than pages the remainder will be ignored, and if there are fewer they will repeat from the start. This makes coordination with the length of `props.content` a primary design concern. The essential situation to avoid is that in which there are 7 colors and 8 pages, with only a single color appearing twice; *this has a negative visual impact.* If the number of pages is static, a unique color for each is feasible. Otherwise, consider having no more than half as many colors as the minima. 
 * **depth** defines the offset distance between pages, in the form of an integer multiplier.
   * Default value is 6, though it must be noted that this controls its property both *inversely,* and *exponentially.* Values of 2 (very spread out) and 50 (very tightly stacked) are roughly the outer bounds of all good sense.
- * **opacity** defines the transparency of all pages, contributing to the perspective effect, in the form of a percentage string. 
-  * The default is 75% solid. Much lower than this contributes negatively to the readability of fine print.
-  
-##### Styles
+ * **opacity** defines the transparency of all pages, contributing to the perspective effect, in the form of a percentage string.
+   * The default is 75% solid. Much lower than this contributes negatively to the readability of fine print.
+#### Styles
 The only defaults imposed as styles are the font color and 2px solid border, both for sake of legibility. These may need to be styled over forcibly in some cases. Other than these two all endemic styles are required for the Spacebook depth effect to function, or are left unspecified.
   
 
