@@ -73,4 +73,5 @@ To conclude, let's compare the output of a fully specified render call to the de
     
     
  The element as it appears in the browser:
+ 
  ![Styled Spacebook](https://raw.githubusercontent.com/danielmdavis/spacebook/master/app/images/spacebook3.png)
