@@ -1,7 +1,7 @@
 {
   "name": "spacebook",
-  "version": "1.0.1",
-  "description": "IMAGE1",
+  "version": "1.0.3",
+  "description": "Responsive 3d react component",
   "main": "Spacebook.jsx",
   "babel": {
     "presets": [
