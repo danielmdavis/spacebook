@@ -2,10 +2,11 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry: './app/index.js',
+  entry: './app/spacebook.jsx',
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'index_bundle.js'
+    path: path.resolve(__dirname, 'build'),
+    filename: 'build.js',
+    libraryTarget: 'commonjs2'
   },
   module: {
     rules: [

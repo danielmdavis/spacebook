@@ -1,8 +1,8 @@
 {
   "name": "spacebook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "IMAGE1",
-  "main": "index.js",
+  "main": "Spacebook.jsx",
   "babel": {
     "presets": [
       "@babel/preset-env",
@@ -10,7 +10,7 @@
     ]
   },
   "scripts": {
-    "create": "webpack",
+    "build": "webpack",
     "start": "webpack-dev-server --open"
   },
   "keywords": [
