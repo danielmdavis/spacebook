@@ -1,8 +1,8 @@
 {
   "name": "spacebook",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Responsive 3d react component",
-  "main": "Spacebook.jsx",
+  "main": "index.js",
   "babel": {
     "presets": [
       "@babel/preset-env",
