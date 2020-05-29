@@ -29,8 +29,7 @@ Then simply place the element in your `render` method. Be sure to include `conte
 ```
 
 If you were to populate that content array with a few more placeholder strings, the result would look something like this:
-
-IMAGE2
+![All Default properties](https://raw.githubusercontent.com/danielmdavis/spacebook/master/app/images/spacebook2.png)
 
 It seems that while the default color scheme shows the potential visual impact of the Spacebook component, it leaves something to be desired in terms of professionalism. Here's how to change it.
 
@@ -74,6 +73,5 @@ To conclude, let's compare the output of a fully specified render call to the de
     
     
  The element as it appears in the browser:
-    
-
-IMAGE3
+ 
+ ![Styled Spacebook](https://raw.githubusercontent.com/danielmdavis/spacebook/master/app/images/spacebook3.png)
